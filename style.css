@@ -1,0 +1,70 @@
+@import "compass/css3";
+
+body {
+  /* Location of the image */
+  background-image: url(img/background.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: ##C0C0C0;
+}
+
+.main {
+  margin-top: 0px;
+}
+
+
+
+.nav-tabs {
+  border-bottom: none;
+  > li {
+    > a {
+      border: none;
+      border-radius: 0;
+      background-color: #eee;
+      &:hover {
+        background-color: #8845a6;
+        color: #fff;
+      }
+    }
+    &.active > a {
+      border: none;
+      background-color: #8845a6;
+      color: #fff;
+      &:hover,
+      &:focus {
+        border: none;
+        background-color: #8845a6;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+
+#map {
+    height: 730px;
+    border: thin solid black;
+}
+
+.locationpic {
+    max-width: 150px;
+    min-width: 100px;
+    margin: 5px;
+    box-sizing: border-box;
+}
