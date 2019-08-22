@@ -10,14 +10,15 @@ When children click the webpage, detail of address on be show and the nearby res
 
 
 ## Demo
-https://github.com/kstan8668/Project-1_User-Centric_Frontend_Development.git
+ https://kstan8668.github.io/KidsChurch_Attraction-_List_info-2019/.
+
 ## UX
-I design a grey “feel” back ground to contrast the colourful images and map. Text will be black. This webpage will be use by children, therefore there is no need to fill any registration form, no need to input any name & address details. The places are the most popular attraction in Singapore and all children love to visit. They can go there to enjoy the natural environment like Zoo or Birdpark, etc. The Red marker shown the actual location point and the Black marker show where are the nearby food location when they feel hungry.  
+I design a grey “feel” back ground to contrast the colourful images and map. Text will be black. This webpage will be use by children, therefore there is no need to fill any registration form, no need to input any name & address details. The places are the most popular attraction in Singapore and all children love to visit. They can go there to enjoy the natural environment like Zoo or Birdpark, etc. The Red marker shown the actual location point and the Black marker show where are the nearby food location when they feel hungry. The whole idea was easy for children to check attraction information. Pastor will allow to update it on https://kstan8668.github.io/KidsChurch_Attraction-_List_info-2019/. 
 
 ## Technologies
 1. HTML
 2. CSS
-3. Java
+3. Java script
 4. Google map
 
 
@@ -32,7 +33,7 @@ Game would be good to implement onto it to interest more children to glance the 
 
 
 ## Testing
-To invite a few children using their smartphone to this webpage:  GitHub repository. https://github.com/kstan8668/Project-1_User-Centric_Frontend_Development.git
+To invite a few children using their smartphone to this webpage:  GitHub repository.  https://kstan8668.github.io/KidsChurch_Attraction-_List_info-2019/.
 Test for login:
 Tested multiple browsers : Chrome, FireFox, Safari, FireFox and Chrome >>> Past
 Tested multiple brand phone: iPhone  (5,6,7,8 & x versions), Samsung Galaxy (J2 Pro, note 8 & 9), Xiaomi (max2 & 3)and Huawei (P30 series and mate 20 series) >>> Past
@@ -46,7 +47,7 @@ Tested multiple tablet: ipad (mini 4 & pro versions) Huawei mediapad 5  >>> Past
 
 ## Deployment
 Login the Github
-GitHub host location -  https://github.com/??????
+GitHub host location -   https://kstan8668.github.io/KidsChurch_Attraction-_List_info-2019/.
 Landing page: index.html on local repository
 
 
@@ -64,8 +65,8 @@ Images: Taken from a stock image library as Pexels(https://www.pexels.com/) and 
 
 
 ## Acknowledgements
-
-Bootstrap (v4.3.1): https://getbootstrap.com
+Jumbotron background:  https://mdbootstrap.com/docs/jquery/components/jumbotron
+Bootstrap (v4.3.1): https://getbootstrap.com/docs/4.3/getting-started/introduction/#starter-template
 W3schools : https://www.w3schools.com/html/html_css.asp
 Isfiddle:  http://jsfiddle.net/ZFvDV/
 Stackoverflow : https://stackoverflow.com/questions/11106671/google-maps-api-multiple-markers-with-infowindows
@@ -77,11 +78,8 @@ Google  : https://developers.google.com/maps/documentation/javascript/infowindow
 Stackoverflow : https://stackoverflow.com/questions/19059580/client-on-node-uncaught-referenceerror-require-is-not-defined
 ASP: https://forums.asp.net/t/2123118.aspx?mouseover+tool+tip+in+google+map+using+javascript
 Codepen: https://codepen.io/mr-zouabi/pen/yzRWWy
-
-
-Pls inform there is some limitation on the nearby google marker to  show where is the near by food and dricks 
-var places = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?radius=500&type=restaurant&key=AIzaSyDWM6ZzO2d0TVFBS5bVsKbDp7FNnNJlZyk";
-var params = {};
+cors-anywhere.herokuapp.com : "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?radius=500&type=restaurant&key=AIzaSyDWM6ZzO2d0TVFBS5bVsKbDp7FNnNJlZyk";
+Pls inform there is some limitation on the nearby google marker to show where is the nearby food and drinks 
 
 
 ##This is for educational use.##
