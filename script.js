@@ -21,8 +21,9 @@ var scienceCentrePos = {
     "lon" : 103.7362
 }
 
-var places = "/https://maps.googleapis.com/maps/api/place/nearbysearch/json?radius=500&type=restaurant&key=AIzaSyDWM6ZzO2d0TVFBS5bVsKbDp7FNnNJlZyk";
+var places = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?radius=500&type=restaurant&key=AIzaSyDWM6ZzO2d0TVFBS5bVsKbDp7FNnNJlZyk";
 var params = {};
+
 
 
 $("#zoo").click(function(){
